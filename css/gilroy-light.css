@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Gilroy-Light';
+	src: url('../fonts/gilroy-light.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-light.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/gilroy-light.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/gilroy-light.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-light.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/gilroy-light.svg#gilroy-light') format('svg'); /* Chrome < 4, Legacy iOS */
+}

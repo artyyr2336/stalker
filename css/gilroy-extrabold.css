@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Gilroy-ExtraBold';
+	src: url('../fonts/gilroy-extrabold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-extrabold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/gilroy-extrabold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/gilroy-extrabold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-extrabold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/gilroy-extrabold.svg#gilroy-extrabold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
