@@ -51,6 +51,7 @@ header {
 
 .menu__item__orange a {
   background-color: #ffdc76;
+  color: #26333c;
 }
 
 .menu__item__orange a:hover {
@@ -165,47 +166,87 @@ header {
 }
 
 /********adventure**************/
+
 .adventure{
   background: url(../img/back__picture.png);
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: scroll;
-  
-  /* Вот что позволяет фоновому изображению подстраиваться под размер контейнера */
   background-size: cover;
+  height: 650px;
+}
+
+.adventure-content{
+  height: 650px;
+}
+
+.adventure__left_top {
+  background-color: rgba(60, 85, 205, 0.5);
+  max-width: 100% !important;
+
+}
+
+.adventure__left__bottom{
+  max-width: 100% !important;
+}
+
+
+.adventure__center__top{
+
+  max-width: 100% !important;
+}
+
+.adventure__center__bottom{
+  background-color: rgba(60, 85, 205, 0.5);
+}
+
+.adventure__right-top{
+  background-color: rgba(60, 85, 205, 0.5);
+}
+
+.adventure__center__bottom, .adventure__right-top, .adventure__right-bottom{
+  max-width: 100% !important;
   
-  height: 450px;
-}
-.adventure .row{
-  margin: 0;
-  padding: 0;
-}
-
-.adveture__left{
-  display: block;
 
 }
-.adventure .adventure__left_top{
-    background-color: rgba(0, 0, 150, 0.5);
-    height: 30vh;
-    background-size:cover
-    
-  }
 
-  .adventure .adventure__left__buttom{
-    background-color: rgba(0, 150, 0, 0.5);
-    height: 30vh;
-    background-size:cover;
-  }
 
-  .adventure__center__top{
-    background-image: url(../img/footbal__png.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    width: 100%;
-    height: 100%;
-  }
+.adventure_img{
+  width: 250%;
+  height: 325px;
+}
+
+.adventure__left__text_top-1{
+  color: white;
+  font-family: 'Gilroy-ExtraBold';
+  font-size: 45px;
+  margin-top: 33%;
+  
+}
+.adventure__left__text_top-2{
+  color: white;
+  font-family: 'Gilroy-light';
+  font-size: 45px;
+
+}
+
+.adventure__left__text_bottom-1{
+  color: rgba(255, 255, 255, 0.7);
+  font-family: 'Gilroy-light';
+  font-size: 20px;
+  margin-top: 35px;
+}
+.adventure__left__text_bottom-2{
+  background-color: #ffdc76;
+  color: #26333c;
+  border: 1px solid #ffdc76;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+.adventure__left__bottom , .adventure__left_top, .adventure__left, .adventure__center, .adventure__center__top,.adventure__center__bottom,.adventure__right,.adventure__right-top,.adventure__right-bottom{
+  padding-right: 0 !important;
+  padding-left: 0  !important;
+}
+
 
 /*******INFORMATION****************/
 
@@ -219,11 +260,11 @@ header {
   background-color: white;
   margin: 90px 0;
   width: 105px;
-  
+
 }
 
 .information__old__header{
-  
+
   font-family: 'Gilroy-ExtraBold';
   color: #3251d2;
   font-size: 55px;
@@ -243,7 +284,7 @@ header {
   font-size: 55px;
   white-space: nowrap;
   font-family: 'Gilroy-light';
-  
+
 }
 .pc{
   width: 100%;
