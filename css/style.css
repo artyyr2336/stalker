@@ -7,18 +7,20 @@ li {
   display: block;
   margin: 0;
 }
-html{
-
+html {
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;
 }
 
-body
-{
+body {
   width: 100%;
   max-width: 100%;
   overflow-x: hidden;
+}
+nav {
+  Padding: 0 !important;
+  Margin: 0!important;  
 }
 body,
 div {
@@ -48,17 +50,24 @@ header {
   color: white;
   text-decoration: none;
 }
+.menu__item__orange a:hover {
+  color: black;
+}
 
 .menu__item__orange a {
   background-color: #ffdc76;
   color: #26333c;
 }
 
+.strike__head {
+  width: 6px;
+}
+
 .menu__item__orange a:hover {
   background-color: #ffdc76;
 }
 
-.menu__item__orange{
+.menu__item__orange {
   position: relative;
   z-index: 3;
 }
@@ -125,6 +134,19 @@ header {
   font-size: 90%;
 }
 
+.center__play{
+  position: absolute;
+  background-color: #ffdc76;
+  padding: 17px 17px 17px 20px;
+  margin-left: 80px;
+  width: 50px;
+  margin-top: -26px;
+  box-shadow:9px 6px 20px 0px rgba(0,0,0,0.23);
+-webkit-box-shadow:9px 6px 20px 0px rgba(0,0,0,0.23);
+-moz-box-shadow:9px 6px 20px 0px rgba(0,0,0,0.23);
+}
+
+
 .contacts {
   background-color: rgb(255, 255, 255);
   text-align: center;
@@ -144,7 +166,7 @@ header {
   display: block;
   text-align: center;
 }
-.messengers{
+.messengers {
   margin-top: 12px;
 }
 .massengers__icon img {
@@ -162,12 +184,12 @@ header {
 .grey__head {
   background-color: #eef3f5;
   width: 100%;
-  height: 20px;
+  height: 10px;
 }
 
 /********adventure**************/
 
-.adventure{
+.adventure {
   background: url(../img/back__picture.png);
   background-position: center center;
   background-repeat: no-repeat;
@@ -175,17 +197,16 @@ header {
   height: 650px;
 }
 
-.adventure-content{
+.adventure-content {
   height: 650px;
 }
 
 .adventure__left_top {
   background-color: rgba(60, 85, 205, 0.5);
   max-width: 100% !important;
-
 }
 
-.adventure__left_top:after{
+.adventure__left_top:after {
   content: "";
   position: absolute;
   width: 100%;
@@ -193,68 +214,63 @@ header {
   background-color: rgba(60, 85, 205, 0.5);
   margin-left: -100%;
   top: 0;
-
 }
 
-.adventure__left__bottom{
+.adventure__left__bottom {
   max-width: 100% !important;
 }
 
-
-.adventure__center__top{
-
+.adventure__center__top {
   max-width: 100% !important;
 }
 
-.adventure__center__bottom-1{
+.adventure__center__bottom-1 {
   font-size: 30px;
-  font-family: 'Gilroy-ExtraBold';
+  font-family: "Gilroy-ExtraBold";
   color: white;
   margin-left: 45px;
   margin-top: 70px;
   margin-bottom: 5px;
 }
-.adventure__center__bottom-2{
-  font-family: 'Gilroy-light';
+.adventure__center__bottom-2 {
+  font-family: "Gilroy-light";
   color: white;
   margin-left: 45px;
   font-size: 30px;
   margin-bottom: 0;
-
 }
 
-.adventure__center__bottom-3{
+.adventure__center__bottom-3 {
   color: white;
   font-size: 15px;
   margin-left: 45px;
-  font-family: 'Gilroy-light';
+  font-family: "Gilroy-light";
 }
 
-.adventure__right__text-1{
+.adventure__right__text-1 {
   color: white;
   font-size: 23px;
-  font-family: 'Gilroy-ExtraBold';
+  font-family: "Gilroy-ExtraBold";
   margin-bottom: 0;
   margin-top: 80px;
   margin-left: 50px;
-
 }
-.adventure__right__text-2{
+.adventure__right__text-2 {
   color: white;
-  font-family: 'Gilroy-light';
+  font-family: "Gilroy-light";
   margin-bottom: 0;
   font-size: 23px;
   margin-left: 50px;
 }
-.adventure__center__bottom{
+.adventure__center__bottom {
   background-color: rgba(60, 85, 205, 0.5);
 }
 
-.adventure__right-top{
+.adventure__right-top {
   background-color: rgba(60, 85, 205, 0.5);
 }
 
-.adventure__right-top:after{
+.adventure__right-top:after {
   content: "";
   position: absolute;
   width: 100%;
@@ -262,118 +278,115 @@ header {
   background-color: rgba(60, 85, 205, 0.5);
   margin-left: 100%;
   top: 0;
-
 }
 
-.adventure__center__bottom, .adventure__right-top, .adventure__right-bottom{
+.adventure__center__bottom,
+.adventure__right-top,
+.adventure__right-bottom {
   max-width: 100% !important;
-  
-
 }
 
-
-.adventure_img{
+.adventure_img {
   width: 250%;
   height: 325px;
 }
 
-.adventure__left__text_top-1{
+.adventure__left__text_top-1 {
   color: white;
-  font-family: 'Gilroy-ExtraBold';
+  font-family: "Gilroy-ExtraBold";
   font-size: 45px;
   margin-top: 33%;
-  
 }
-.adventure__left__text_top-2{
+.adventure__left__text_top-2 {
   color: white;
-  font-family: 'Gilroy-light';
+  font-family: "Gilroy-light";
   font-size: 45px;
-
 }
 
-.adventure__left__text_bottom-1{
+.adventure__left__text_bottom-1 {
   color: rgba(255, 255, 255, 0.7);
-  font-family: 'Gilroy-light';
+  font-family: "Gilroy-light";
   font-size: 20px;
   margin-top: 35px;
 }
-.adventure__left__text_bottom-2{
+.adventure__left__text_bottom-2 {
   background-color: #ffdc76;
   color: #26333c;
   border: 1px solid #ffdc76;
   padding: 10px 25px;
   cursor: pointer;
 }
-.adventure__left__bottom , .adventure__left_top, .adventure__left, .adventure__center, .adventure__center__top,.adventure__center__bottom,.adventure__right,.adventure__right-top,.adventure__right-bottom{
+.adventure__left__bottom,
+.adventure__left_top,
+.adventure__left,
+.adventure__center,
+.adventure__center__top,
+.adventure__center__bottom,
+.adventure__right,
+.adventure__right-top,
+.adventure__right-bottom {
   padding-right: 0 !important;
-  padding-left: 0  !important;
+  padding-left: 0 !important;
 }
-
 
 /*******INFORMATION****************/
 
-.information{
+.information {
   background-color: #eef3f5;
 }
 
-.information__cube{
+.information__cube {
   position: relative;
   border: 15px solid white;
   background-color: white;
   margin: 90px 0;
   width: 105px;
-
 }
 
-.information__old__header{
-
-  font-family: 'Gilroy-ExtraBold';
+.information__old__header {
+  font-family: "Gilroy-ExtraBold";
   color: #3251d2;
   font-size: 55px;
   white-space: nowrap;
 }
 
-.information__old__button{
+.information__old__button {
   color: #1b172d;
   font-size: 20px;
   white-space: nowrap;
-  font-family: 'Gilroy-regular',sans-serif;
-
+  font-family: "Gilroy-regular", sans-serif;
 }
 
-.information__clients__header{
+.information__clients__header {
   color: #3251d2;
   font-size: 55px;
   white-space: nowrap;
-  font-family: 'Gilroy-light';
-
+  font-family: "Gilroy-light";
 }
-.pc{
+.pc {
   width: 100%;
 }
-.tv{
+.tv {
   width: 100%;
 }
-.items{
+.items {
   width: 100%;
 }
-.uslugi{
+.uslugi {
   width: 100%;
 }
 
-
-
-.buy__head{
+.buy__head {
   margin-bottom: 50px;
   font-weight: bold;
-  font-family: 'Gilroy-ExtraBold';
+  font-family: "Gilroy-ExtraBold";
   font-size: 50px;
 }
-.buy__text{
+.buy__text {
   margin-bottom: 50px;
   font-size: 20px;
 }
-.buy__button a{
+.buy__button a {
   text-decoration: none;
   border: 1px solid #ffdc76;
   color: #26333c;
@@ -381,19 +394,19 @@ header {
   padding: 20px 30px;
   font-size: 15px;
 }
-.buy__button:hover a{
+.buy__button:hover a {
   text-decoration: none;
   color: #26333c;
 }
-.buy__solid{
+.buy__solid {
   margin-top: 80px;
   padding-top: 50px;
 }
 
-.buy__block-1:before{
-  content: '';
+.buy__block-1:before {
+  content: "";
   position: absolute;
-  left:0;
+  left: 0;
   margin-top: -50px;
   width: 100%;
   height: 3px;
@@ -401,10 +414,10 @@ header {
   background-color: #eaf3f7;
 }
 
-.buy__block-2:before{
-  content: '';
+.buy__block-2:before {
+  content: "";
   position: absolute;
-  left:0;
+  left: 0;
   margin-top: -50px;
   width: 100%;
   height: 3px;
@@ -412,77 +425,72 @@ header {
   background-color: #eaf3f7;
 }
 
-
-.buy__solid .row{
+.buy__solid .row {
   justify-content: space-between;
 }
 
-.buy__solid__finish{
+.buy__solid__finish {
   margin-bottom: 50px;
 }
 
-.footer__name{
-  font-family: 'Gilroy-Light';
+.footer__name {
+  font-family: "Gilroy-Light";
   margin-bottom: 30px;
-
 }
-.footer_head{
+.footer_head {
   background-color: #3251d2;
   width: 100%;
   height: 50px;
-
 }
-.footer__name a{
+.footer__name a {
   text-decoration: none;
   color: #889bec;
   font-size: 25px;
 }
-.footer__name:hover a{
+.footer__name:hover a {
   text-decoration: none;
   color: #889bec;
   font-size: 25px;
 }
 
-.footer_button{
+.footer_button {
   background-color: #3959e0;
-
 }
 
-.number__number{
+.number__number {
   color: white;
-  font-size: 19px
+  font-size: 19px;
 }
-.number__text{
+.number__text {
   color: #889bec;
   font-size: 10px;
 }
 
-
-.tel,.street,.mail{
+.tel,
+.street,
+.mail {
   margin-top: -20px;
   padding-bottom: 15px;
-
 }
-.messengers__button{
+.messengers__button {
   margin-top: -20px;
   padding-bottom: 10px;
-
 }
-.footer__img_tel{
+.footer__img_tel {
   width: 25px;
   margin-right: 10px;
 }
-.number{
+.number {
   margin-top: -10px;
 }
-.footer_button .row{
+.footer_button .row {
   justify-content: space-between;
 }
 
-.fot_mass{
+.fot_mass {
   margin: 0 5px;
 }
-.fot__mass_img{
+.fot__mass_img {
   width: 50px;
   height: 50px;
   padding-top: 5px;
@@ -490,7 +498,7 @@ header {
   padding-left: 15px;
   padding-right: 15px;
 }
-.footer__telephone a{
+.footer__telephone a {
   border: 1px solid #3251d2;
   background-color: #3251d2;
   padding-bottom: 10px;
