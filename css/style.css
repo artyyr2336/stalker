@@ -185,6 +185,17 @@ header {
 
 }
 
+.adventure__left_top:after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(60, 85, 205, 0.5);
+  margin-left: -100%;
+  top: 0;
+
+}
+
 .adventure__left__bottom{
   max-width: 100% !important;
 }
@@ -195,12 +206,63 @@ header {
   max-width: 100% !important;
 }
 
+.adventure__center__bottom-1{
+  font-size: 30px;
+  font-family: 'Gilroy-ExtraBold';
+  color: white;
+  margin-left: 45px;
+  margin-top: 70px;
+  margin-bottom: 5px;
+}
+.adventure__center__bottom-2{
+  font-family: 'Gilroy-light';
+  color: white;
+  margin-left: 45px;
+  font-size: 30px;
+  margin-bottom: 0;
+
+}
+
+.adventure__center__bottom-3{
+  color: white;
+  font-size: 15px;
+  margin-left: 45px;
+  font-family: 'Gilroy-light';
+}
+
+.adventure__right__text-1{
+  color: white;
+  font-size: 23px;
+  font-family: 'Gilroy-ExtraBold';
+  margin-bottom: 0;
+  margin-top: 80px;
+  margin-left: 50px;
+
+}
+.adventure__right__text-2{
+  color: white;
+  font-family: 'Gilroy-light';
+  margin-bottom: 0;
+  font-size: 23px;
+  margin-left: 50px;
+}
 .adventure__center__bottom{
   background-color: rgba(60, 85, 205, 0.5);
 }
 
 .adventure__right-top{
   background-color: rgba(60, 85, 205, 0.5);
+}
+
+.adventure__right-top:after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(60, 85, 205, 0.5);
+  margin-left: 100%;
+  top: 0;
+
 }
 
 .adventure__center__bottom, .adventure__right-top, .adventure__right-bottom{
@@ -334,7 +396,7 @@ header {
   left:0;
   margin-top: -50px;
   width: 100%;
-  height: 5px;
+  height: 3px;
   color: #eaf3f7;
   background-color: #eaf3f7;
 }
@@ -345,7 +407,7 @@ header {
   left:0;
   margin-top: -50px;
   width: 100%;
-  height: 5px;
+  height: 3px;
   color: #eaf3f7;
   background-color: #eaf3f7;
 }
