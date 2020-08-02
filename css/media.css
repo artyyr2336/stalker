@@ -1,0 +1,278 @@
+@media screen and (max-width:1920px){
+
+}
+@media screen and (max-width:1600px){
+
+}
+
+@media screen and (max-width:1368px){
+
+        .menu__item a{
+                font-size: 10px;
+        }
+        .adventure__left__text_top-1{
+                font-size: 35px;
+        }
+        .adventure__left__text_top-2{
+                font-size: 35px;
+        }
+        .adventure__center__bottom-1{
+                font-size: 20px;
+        }
+        .adventure__center__bottom-2{
+                font-size: 20px;
+        }
+        .adventure__center__bottom-3{
+                font-size: 10px;
+        }
+        .information__old__button{
+                font-size: 15px;
+        }
+
+}
+@media screen and (max-width:991px){
+        .messengers{
+                display: none;
+        }
+        .logo__svg{
+                margin-top: 7px;
+                width: 100%;
+                height: 50%;
+        }
+        .name__logo__top{
+                font-size: 7px;
+        }
+        .name__logo__arrow{
+                width: 70%;
+                margin-left: 12px;
+        }
+        .head__img{
+                height: 30%;
+        }
+        .adress__adress-time{
+                font-size: 50%;
+        }
+        .adress__adress-street{
+                font-size: 60%;
+        }
+        .phone__contacts-text{
+                font-size: 50%;
+        }
+        .phone__contacts-number{
+                font-size: 70%;
+        }
+        .contacts{
+                height: 50px;
+        }
+        .menu__item a{
+                padding: 20px 20px;
+        }
+        .adventure__left__text_top-1{
+                font-size: 20px;
+                margin-top: 40px;
+
+        }
+        .adventure__left__text_top-2{
+                font-size: 20px;
+        }
+        .adventure{
+                height: 379px;
+        }
+        .adventure__left_top{
+                height: 50px;
+        }
+        .adventure__center__bottom-1{
+                margin-top: 18px;
+                font-size: 20px;
+
+        }
+        .adventure_img{
+                width: 180%;
+                height: 216px;
+        }
+        .adventure__right__text-1{
+                margin-top: 10px;
+                font-size: 20px;
+        }
+        .adventure__right__text-2{
+                font-size: 20px;
+        }
+        .information__old__header, .information__clients__header{
+                font-size: 45px
+        }
+        .information__cube{
+                margin-top: 40px;
+                margin-bottom: 40px;
+        }
+        .buy__solid{
+                margin-top: 10px;
+        }
+        .buy__head{
+                font-size: 35px;
+        }
+        .buy__text{
+                font-size: 15px;
+        }
+        .tel a,.street a,.mail a, .messengers a{
+                font-size: 20px;
+        }
+        .number__number{
+                font-size: 15px;
+        }
+        .head__img{
+                margin-top: 17px;
+        }
+
+
+}
+
+@media screen and (max-width:768px){
+        .adventure{
+                height: 217px;
+        }
+        .center__play{
+                padding: 9px 7px 9px 10px;
+                width: 30px;
+                margin-top: -20px;
+        }
+        .head__img{
+                display: none;
+        }
+        .adress__adress-street{
+                margin-left: -32px;
+                font-size: 8px;
+        }
+        .phone__contacts-text{
+                margin-top: 10px;
+        }
+        .adress__adress-time{
+                font-size: 8px;
+        }
+        .logo{
+                margin-top: -5px;
+                width: 115px;
+                height: 90px;
+        }
+        .messengers{
+                display: none;
+        }
+        .adventure__left__text_top-1{
+                font-size: 15px;
+                margin-top: 30px;
+        }
+        .adventure__left__text_top-2{
+                font-size: 15px;
+        }
+        .adventure__left__text_bottom-1{
+                margin-top: 15px;
+                font-size: 15px;
+                margin-bottom: 5px;
+        }
+        .adventure__left__text_bottom-2{
+                font-size: 10px;
+                padding: 8px 8px;
+                margin-top: -50px;
+        }
+        .adventure__center__bottom-1,.adventure__center__bottom-2,.adventure__center__bottom-3{
+                font-size: 10px;
+
+        }
+        .adventure__right__text-1,.adventure__right__text-2{
+                font-size: 15px;
+        }
+        .adventure_img{
+                width: 178%;
+                height: 109px;
+        }
+        .information__cube{
+                margin-top: 20px;
+                margin-bottom: 10px;
+                width: 110px;
+                height: 150px;
+        }
+        .information__old__header,.information__clients__header{
+                font-size: 40px;
+        }
+        .pc,.tv,.items,.uslugi{
+                width: 100%;
+        }
+        .name__logo{
+                margin-top: 4px;
+        }
+        .buy__head{
+                font-size: 30px;
+                margin-bottom: 15px
+        }
+        .buy__text{
+                margin-bottom: 10px;
+        }
+        .contacts{
+                display: none;
+        }
+        .grey__head{
+                display: none;
+        }
+
+}
+@media screen and (max-width:480px){
+        .pc,.tv,.items,.uslugi{
+                width: 60%;
+                margin: 5px auto;
+
+        }
+        .adventure__left__text_top-1{
+                font-size: 12px;
+        }
+        .adventure__left__text_top-2{
+                font-size: 12px;
+        }
+        .adventure__left__text_bottom-1{
+                font-size: 12px;
+        }
+        .adventure__left__text_bottom-2{
+                padding: 3px 3px 3px 3px;
+        }
+        .adventure__center__bottom-1,.adventure__center__bottom-2{
+                font-size: 8px;
+        }
+        .adventure__center__bottom-1{
+                margin: 13px 0px 0px 10px
+        }
+        .adventure__center__bottom-2{
+                margin: 5px 0px 0px 10px;
+        }
+        .adventure__center__bottom-3{
+                font-size: 10px;
+                margin: 0px 0px 0px 10px;
+        }
+        .center__play{
+        
+                margin-top: -10px;
+                margin-left: 25px;
+                width: 15px;
+                padding: 3px 3px 3px 3px;
+        }
+        .adventure__right__text-1{
+                font-size: 13px;
+                margin-left: 20px;
+        }
+        .adventure__right__text-2{
+                font-size: 13px;
+                margin-left: 20px;
+        }
+        .adventure_img{
+                width: 170%;
+        }
+        .information__old__header,.information__clients__header{
+                font-size: 35px;
+        }
+        .information__old__button{
+                font-size: 10px;
+        }
+        .information__cube{
+                margin: 5px 5px ;
+                width: 80px;
+                height: 150px;
+        }
+
+}
