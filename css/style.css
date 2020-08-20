@@ -353,6 +353,7 @@ header {
   color: #3251d2;
   font-size: 55px;
   white-space: nowrap;
+  margin: auto;
 }
 
 .information__old__button {
