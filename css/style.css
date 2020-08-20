@@ -171,8 +171,8 @@ header {
   display: block;
   text-align: center;
 }
-.messengers {
-  margin-top: 12px;
+.messengers__block__header{
+  margin: auto;
 }
 .massengers__icon img {
   padding: 5%;
@@ -462,9 +462,10 @@ header {
   background-color: #3959e0;
 }
 
-.number__number {
+.number a,.number a:active, .number a:hover {
   color: white;
   font-size: 19px;
+  background-color: #3959e0;
 }
 .number__text {
   color: #889bec;
