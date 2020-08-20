@@ -83,10 +83,14 @@ header {
   right: -10000%;
   top: 0;
 }
+.logo{
+  height: 80%;
+  margin-top: 8px;
+}
 
 .logo__svg {
-  height: 75%;
-  width: 75%;
+  height: 100%;
+  width: 100%;
 }
 
 .adress {
@@ -111,6 +115,7 @@ header {
   width: 90%;
   margin: auto 0;
   display: block;
+  margin-left: 10px;
 }
 
 .adress__adress-time {
