@@ -478,6 +478,13 @@ header {
   margin-top: -20px;
   padding-bottom: 15px;
 }
+.information__cube__text{
+  margin: auto;
+  color: #3959e0;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
 .messengers__button {
   margin-top: -20px;
   padding-bottom: 10px;
